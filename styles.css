@@ -1,0 +1,35 @@
+input {
+  color: black;
+}
+.grandParent, .child, .child1, .child2
+{
+  padding: 10px;
+}
+  .grandParent {
+  background-color: #f0ebd8;
+  height: 150%;
+}
+.child, .child1, .child2 {
+  display: block;
+  border-radius: 10px;
+  margin: 40px auto;
+  color: white;
+  width: 80%;
+  height: 150px;
+}
+.child {
+  background-color: #0d1321;
+}
+.child1 {
+  background-color: #1d2d44;
+}
+.child1 > p, .child1 > label {
+  color: #d3d3d3;
+}
+.child2 {
+  background-color: #3e5c76;
+  height: 100px;
+}
+.large {
+  height:300px;
+}
